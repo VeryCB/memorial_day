@@ -16,7 +16,7 @@ today = date.today()
 
 acquaintanced = (today - acquaintance_day).days
 loved = (today - love_day).days
-married = (today - daughter_birthday).days
+married = (today - wedding_day).days
 daughter_age = (today - daughter_birthday).days
 
 status_tmpl = '今天是我们相识的第%s天，相爱的第%s天，喜结连理的第%s天，也是我们的女儿出生的第%s天。'  # noqa
